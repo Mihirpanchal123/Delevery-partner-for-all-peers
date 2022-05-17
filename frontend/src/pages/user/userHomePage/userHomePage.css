@@ -1,0 +1,91 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .main-image{
+    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    filter: blur(2px);
+  }
+  
+  .mainContent{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    text-shadow: 3px 0 3px black,
+                2px 0 3px black;
+  }
+  
+  .mainForm{
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
+    border: 5px solid rgb(255, 255, 255);
+    width: 50%;
+    padding: 40px 0;
+  }
+  
+  .mainText{
+    color: white;
+    top: 70%;
+    text-align: center;
+    padding: 10% 0;
+  }
+  
+  .main-h1{
+    font-weight: bold;
+    font-size: 60px;
+  }
+  
+  .main-p{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .book-h1{
+    font-family: Poppins;
+    margin-bottom: 30px;
+  }
+  .global-h1{
+    font-size: 50px;
+    font-family: Questrial;
+    text-transform: uppercase;
+  }
+  
+  .custom-select {
+    width: 50%;
+    display: inline-block;
+  }
+  
+  #main-submit{
+    font-size: 20px;
+    width: 30%;
+  }
